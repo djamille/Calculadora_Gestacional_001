@@ -1,0 +1,25 @@
+body{
+    background-image: url("imagem/gestante2.jpg");
+    background-repeat: no-repeat;
+    background-size: 110%;
+    color: rgb(223, 197, 167);
+    padding-left: 3%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+
+.entrada{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+input{
+    font-size: 25px;    
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button{
+    font-size: 25px;    
+    font-family: 'Courier New', Courier, monospace;
+}

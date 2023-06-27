@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Gestacional</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="entrada">
+        <h1>Calculadora Gestacional</h1>
+        <form>
+            <label for="data">Digite a data da sua última menstruação:</label>
+            <input type="date" id="data" required>
+            <button type="button" id="btn-enviar" onclick="calcular()">Calcular</button>
+            <span id="resultado"></span>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
