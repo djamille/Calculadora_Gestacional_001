@@ -7,15 +7,24 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div class="entrada">
+    <nav>
         <h1>Calculadora Gestacional</h1>
-        <form>
-            <label for="data">Digite a data da sua última menstruação:</label>
-            <input type="date" id="data" required>
-            <button type="button" id="btn-enviar" onclick="calcular()">Calcular</button>
+    </nav>
+    <main>
+        <section>
+            <div class="entrada">
+                <form>
+                    <label for="data">Digite a data da sua última menstruação:</label>
+                    <input type="date" id="data" required>
+                    <button type="button" id="btn-enviar" onclick="calcular()">Calcular</button>
+                </form>
+            </div>
             <span id="resultado"></span>
-        </form>
-    </div>
+        </section>
+    </main>
+    <footer>
+        <span>Projeto desenvolvido com muito carinho por Djamille Vieira em 2023</span>            
+    </footer>        
     <script src="script.js"></script>
 </body>
 </html>

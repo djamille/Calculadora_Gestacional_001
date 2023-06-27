@@ -5,9 +5,16 @@ body{
     color: rgb(223, 197, 167);
     padding-left: 3%;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 25px;
+    font-size: 20px;
 }
 
+nav{
+    font-size: 20px;
+}
+
+main{
+    height: 620px;
+}
 .entrada{
     display: flex;
     flex-direction: column;
@@ -22,4 +29,59 @@ input{
 button{
     font-size: 25px;    
     font-family: 'Courier New', Courier, monospace;
+}
+
+#resultado{
+    display: flex;
+    width: 45%;
+}
+
+footer{
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 768px) {
+    body{
+        background-repeat: no-repeat;
+        background-size: 110%;
+        background-color: black;
+        width: 54%;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    nav{
+        font-size: 18px;
+    }
+
+    main{
+        font-size: 18px;
+        width: 100%;
+        line-height: 120%;
+        height: 700px;
+    }
+
+    .entrada{
+        width: 60%;
+    }
+
+    input{
+        font-size: 18px;    
+        width: 135px;
+    }
+    
+    button{
+        font-size: 18px;
+    }
+    
+    #resultado{
+        width: 350px;
+    }
+
+    footer{
+        width: 350px;
+        text-align: center;
+    }
 }
