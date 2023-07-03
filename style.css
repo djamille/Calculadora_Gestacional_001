@@ -29,6 +29,8 @@ input{
 button{
     font-size: 25px;    
     font-family: 'Courier New', Courier, monospace;
+    border-radius: 8px;
+    background-color: rgb(223, 197, 167); color: black;
 }
 
 #resultado{
@@ -75,6 +77,7 @@ footer{
     button{
         font-size: 18px;
     }
+    
     
     #resultado{
         width: 350px;

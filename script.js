@@ -22,7 +22,11 @@ function calcular() {
 
   document.getElementById("resultado").textContent = resultado;
 
-  if (weeks >= 1 && weeks <= 2) {
+
+  if (resultado >= 1 && resultado <= 6) {
+    document.getElementById("resultado").innerHTML =
+    "<br><br>Desculpe, não foi possível calcular sua idade gestacional com base na data que indicou.<br><br>Por favor informe uma data anterior a hoje. Se você menstruou hoje, as chances de estar grávida são muito baixas. O seu período fértil é entre o 7º e 14º dia depois da sua última menstruação.";
+  }else if (resultado >= 7 || weeks == 2) {
     document.getElementById("resultado").innerHTML =
       "<br><br>PARABÉNS! Você está de " + weeks + " semana(s)!<br>Sua gestação está no primeiro mês. Fase em que o óvulo fecundado se implanta no útero, dando início à divisão das células do embrião e estimulando o corpo da mulher a produzir o hormônio beta-HCG para criar condições do bebê se desenvolver dentro do útero. Nesta fase da gestação, a placenta ainda não está formada, mas o bebê encontra-se envolvido pelo saco gestacional que o protege de infecções ou pancadas e que é responsável por formar a placenta e a bolsa amniótica, estando presente até aproximadamente a 12ª semana de gestação.<br>Ao final do primeiro mês, o tamanho do bebê é cerca de 2 milímetros e o tubo neural que dará origem ao sistema nervoso e cérebro do bebê já está formado.<br>A data provável do parto será " + dppFormat + "!!!!";
   } else if (weeks >= 3 && weeks <= 4) {
